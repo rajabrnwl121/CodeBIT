@@ -19,9 +19,9 @@ const SignUp = () => {
 
     };
     return (
-        <div className="flex items-center w-full min-h-screen text-white bg-[#181C21] pt-8">
+        <div className="flex items-center  w-full min-h-screen text-white bg-[#181C21] pt-16  flex items-center center-center">
             {/* Signup Form */}
-            <div className="p-6 rounded-lg w-[35rem] mx-auto ">
+            <div className="p-6 rounded-lg bg-[#1F252B] w-[30rem] mx-auto ">
                 <h2 className="text-4xl font-semibold mb-6 tracking-wider">Sign Up</h2>
 
                 {/* Tabs */}
@@ -29,7 +29,7 @@ const SignUp = () => {
                     <button className="border-b-[4px] border-[#0DB276] text-[#0DB276] pb-1">
                         Student
                     </button>
-                    <button className="text-gray-400">Admin</button>
+
                 </div>
 
                 {/* Form */}
